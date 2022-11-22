@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="container-fluid bg-primary d-flex justify-content-center" id="header">
+        <p class="mb-0 p-2 fs-6">Contáctanos - Whatsapp: 949999426</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="logo" id="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="nav">
+                <li class="nav-item" id="label">
+                <a class="nav-link text-primary"  aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item" id="label">
+                <a class="nav-link text-primary active" href="catalogo.html">Catálogo</a>
+                </li>
+                <li class="nav-item" id="label">
+                <a class="nav-link text-primary" href="armatutorta.html">Arma tu Torta</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+            <img src="images/trabajos/torta_poli.png" class="d-block w-100" alt="slide1">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/trabajos/torta_harry.png" class="d-block w-100" alt="slide2">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/trabajos/torta_50.png" class="d-block w-100" alt="slide3">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/trabajos/torta_liam.png" class="d-block w-100" alt="slide4">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
