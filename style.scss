@@ -134,6 +134,12 @@ footer img{
     background-image: linear-gradient(-45deg, #e3ddd9 50%, #94358c 50%);
     font-family: 'Raleway', sans-serif;
     padding-top: 25px;
+    padding-bottom: 30px;    
+
+    .row{
+        margin: 0;
+        padding-bottom: 20x;
+    }
 
     .titulo {
         font-size: 40px;
@@ -230,6 +236,7 @@ footer img{
         margin-left: auto;
         margin-right: auto;
         margin-top: 40px;
+        margin-bottom: 4vw;
         border: 3px solid #000; 
 
         .display{
@@ -241,47 +248,32 @@ footer img{
     }
 
     .eleccion{
-        .dropdown_menu {
-            display: none;
-          }
-          
-          .menu-bar ul li:hover .dropdown_menu {
-            display: block;
-            position: absolute;
-            left: 0;
-            top: 100%;
-            background-color: var(--color-black);
-          }
-          
-          .menu-bar ul li:hover .dropdown_menu ul {
-            display: block;
-            margin: 10px;
-          }
-          
-          .menu-bar ul li:hover .dropdown_menu ul li {
-            width: 150px;
-            padding: 10px;
-          }
-          
-          .dropdown_menu_1 {
-            display: none;
-          }
-          
-          .dropdown_menu ul li:hover .dropdown_menu_1 {
-            display: block;
-            position: absolute;
-            left: 150px;
-            top: 0;
-            background-color: var(--color-black);
-          }
-          
-          .hero {
-            height: calc(100vh - 80px);
-            background-image: url(./bg.jpg);
-            background-position: center;
-          }
-    }
+        color: black;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 2vw;
 
+        .dog-names{
+            width: 20vw;
+            height: 2vw;
+            background-color: #f5b3ef;
+            border: 2px solid black;
+            border-radius: 10%;
+            margin-bottom: 2vw;
+            font-size: 15px;
+            height: 26px;
+        }
+    }
+    .boton{
+        margin-top: 25px;
+        background-color: rgb(241, 125, 125);
+        border-radius: 10%;
+        font-size: 20px;
+    }
+    .boton:hover{
+        background-color: rgb(230, 98, 98);
+    }
 }
 
 @media (max-width: 1200px){

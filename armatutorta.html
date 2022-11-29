@@ -41,34 +41,59 @@
 
     <div class="arma_tu_torta">
         <h1 class="titulo">Arma tu torta!</h1>
-        <h3 class="w-50 m-auto text-center"> En esta sección escoge el tipo de torta que te gustaría tener, luego obtendrá el precio que le costaría esa torta. Sumarle entre 20 y 100 soles de acuerdo al tipo de diseño</h3>
+        <h3 class="w-75  m-auto text-center"> En esta sección escoge el tipo de torta que te gustaría tener, luego obtendrá el precio que le costaría esa torta. Súmale entre 20 y 100 soles de acuerdo al tipo de diseño</h3>
         <div class="precio">
-            <div class="display">S/0</div>
+            <div class="display"><p id="result">S/0</p></div>
         </div>
         <div class="eleccion">
-            <li><a href="#">Pages <i class="fas fa-caret-down"></i></a>
-
-                <div class="dropdown_menu">
-                    <ul>
-                      <li><a href="#">Pricing</a></li>
-                      <li><a href="#">Portfolio</a></li>
-                      <li>
-                        <a href="#">Team <i class="fas fa-caret-right"></i></a>
-                        
-                        <div class="dropdown_menu_1">
-                          <ul>
-                            <li><a href="#">Team-1</a></li>
-                            <li><a href="#">Team-2</a></li>
-                            <li><a href="#">Team-3</a></li>
-                            <li><a href="#">Team-4</a></li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li><a href="#">FAQ</a></li>
-                    </ul>
-                  </div>
-            </li>
+            <label for="dog-names"></label>
+            <select class="dog-names" name="dog-names" id="tipo">
+                <option value="ninguna">Tipo de Torta</option>
+                <option value="elastica">Masa elástica</option>
+                <option value="chantilly">Chantilly</option>
+                <option value="fondant">Fondant</option>
+                <option value="impresos">Diseños impresos</option>
+            </select>
         </div>
+
+        <div class="eleccion">
+            <label for="dog-names"></label>
+            <select class="dog-names" name="dog-names" id="sabor">
+                <option value="ninguna">Sabor de cake</option>
+                <option value="vainilla">Vainilla</option>
+                <option value="chips">Vainilla con chips</option>
+                <option value="naranja">Naranja</option>
+                <option value="yogurt">Yogurt</option>
+                <option value="platano">Plátano</option>
+            </select>
+        </div>
+
+        <div class="eleccion">
+            <label for="dog-names"></label>
+            <select class="dog-names" name="dog-names" id="relleno">
+                <option value="ninguna">Tipo de relleno</option>
+                <option value="manjar">Manjar</option>
+                <option value="fudge">Fudge</option>
+                <option value="chocolate">Frosting de chocolate</option>
+                <option value="dulce">Frosting de dulce de leche</option>
+                <option value="chantilly">Chantilly con fresa y/o durazno</option>
+            </select>
+        </div>
+
+        <div class="eleccion">
+            <label for="dog-names"></label>
+            <select class="dog-names" name="dog-names" id="especiales">
+                <option value="ninguna">Rellenos especiales</option>
+                <option value="buttercream">Buttercream</option>
+                <option value="bitter">Ganache chocolate bitter</option>
+                <option value="blanco">Ganache chocolate blanco</option>
+                <option value="pecanas">Pecanas</option>
+                <option value="oreo">Óreo</option>
+            </select>
+        </div>
+
+        <button id="boton" class="boton">Calcular</button>
+        <div class="space" style="padding-bottom: 4vw;"></div>
 
     </div>
 
@@ -86,6 +111,6 @@
     
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <script src="main.js"></script>
+    <script src="arma.js"></script>
 </body>
 </html>
