@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -36,30 +38,51 @@
         </div>
     </nav>
 
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="3000">
-            <img src="images/trabajos/torta_poli.png" class="d-block w-100" alt="slide1">
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-            <img src="images/trabajos/torta_harry.png" class="d-block w-100" alt="slide2">
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-            <img src="images/trabajos/torta_50.png" class="d-block w-100" alt="slide3">
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-            <img src="images/trabajos/torta_liam.png" class="d-block w-100" alt="slide4">
-            </div>
+
+    <div class="arma_tu_torta">
+        <h1 class="titulo">Arma tu torta!</h1>
+        <h3 class="w-50 m-auto text-center"> En esta sección escoge el tipo de torta que te gustaría tener, luego obtendrá el precio que le costaría esa torta. Sumarle entre 20 y 100 soles de acuerdo al tipo de diseño</h3>
+        <div class="precio">
+            <div class="display">S/0</div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        <div class="eleccion">
+            <li><a href="#">Pages <i class="fas fa-caret-down"></i></a>
+
+                <div class="dropdown_menu">
+                    <ul>
+                      <li><a href="#">Pricing</a></li>
+                      <li><a href="#">Portfolio</a></li>
+                      <li>
+                        <a href="#">Team <i class="fas fa-caret-right"></i></a>
+                        
+                        <div class="dropdown_menu_1">
+                          <ul>
+                            <li><a href="#">Team-1</a></li>
+                            <li><a href="#">Team-2</a></li>
+                            <li><a href="#">Team-3</a></li>
+                            <li><a href="#">Team-4</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li><a href="#">FAQ</a></li>
+                    </ul>
+                  </div>
+            </li>
+        </div>
+
     </div>
+
+
+    
+
+
+    <footer class="w-100 d-flex align-items justify-content-center flex-wrap">
+        <p class="fs-5 px-3 pt-3"> Dolce EnCcanto. &copy; Todos los derechos reservados</p>
+        <a href=""><img src="images/icons/whatsapp.png" alt="whatsapp-icon"></a>
+        <a href=""><img src="images/icons/facebook.png" alt="Facebook-icon"></a>
+        <a href=""><img src="images/icons/instagram.png" alt="Instagram-icon"></a>
+        <a href=""><img src="images/icons/tiktok.png" alt="Tiktok-icon"></a>
+    </footer>
     
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
